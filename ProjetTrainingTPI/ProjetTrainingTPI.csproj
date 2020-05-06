@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="Classes\Background.cs" />
     <Compile Include="Classes\BasicEnemy.cs" />
+    <Compile Include="Classes\Screen.cs" />
     <Compile Include="Classes\GameScreen.cs" />
     <Compile Include="Classes\Plateform.cs" />
     <Compile Include="Classes\Player1.cs" />

@@ -11,37 +11,34 @@ using Microsoft.Xna.Framework.Content;
 
 namespace ProjetTrainingTPI.Classes
 {
-    public class SplashScreen : GameScreen
+    public class SplashScreen : Screen
     {
         KeyboardState keyState;
-        SpriteFont font;
+        Texture2D background;
 
-        public override void LoadContent(ContentManager Content)
+        public override void LoadContent(ContentManager Content, mainGame game)
         {
             
-            base.LoadContent(Content);
-            if (font == null)
-            {
-                font = content.Load<SpriteFont>("test");
-            }
+            base.LoadContent(Content, game);
+            background = Content.Load<Texture2D>("backgrounds/splashScreen");
         }
         public override void UnloadContent()
         {
             base.UnloadContent();
         }
-        public override void Update(GameTime gametime)
+        public override void Update(GameTime gametime, mainGame game)
         {
             keyState = Keyboard.GetState();
             if (keyState.IsKeyDown(Keys.Space))
             {
-                ScreenManager.Instance.AddScreen(new TitleScreen());
+                ScreenManager.Instance.AddScreen(new TitleScreen(), game);
             }
-            base.Update(gametime);
+            base.Update(gametime, game);
         }
-        public override void Draw(SpriteBatch spriteBatch)
+        public override void Draw(SpriteBatch spriteBatch, Rectangle dimensions, mainGame game)
         {
-            spriteBatch.DrawString(font, "SplashScreen", new Vector2(100, 100), Color.Black);
-            base.Draw(spriteBatch);
+            spriteBatch.Draw(background, dimensions, Color.White);
+            base.Draw(spriteBatch, dimensions, game);
         }
     }
 }

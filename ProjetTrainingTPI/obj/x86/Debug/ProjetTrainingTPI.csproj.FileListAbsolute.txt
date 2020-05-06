@@ -38,3 +38,5 @@ C:\Users\Mandals\Desktop\ProjetTrainingTPI\ProjetTrainingTPI\bin\Windows\x86\Deb
 C:\Users\Mandals\Desktop\ProjetTrainingTPI\ProjetTrainingTPI\bin\Windows\x86\Debug\Content\sprites\insecteRose.xnb
 C:\Users\Mandals\Desktop\ProjetTrainingTPI\ProjetTrainingTPI\bin\Windows\x86\Debug\Content\sprites\insecteRoseInverse.xnb
 C:\Users\Mandals\Desktop\ProjetTrainingTPI\ProjetTrainingTPI\bin\Windows\x86\Debug\Content\test.xnb
+C:\Users\Mandals\Desktop\ProjetTrainingTPI\ProjetTrainingTPI\bin\Windows\x86\Debug\Content\backgrounds\splashScreen.xnb
+C:\Users\Mandals\Desktop\ProjetTrainingTPI\ProjetTrainingTPI\bin\Windows\x86\Debug\Content\backgrounds\TitleScreen.xnb

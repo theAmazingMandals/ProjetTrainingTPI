@@ -1,2 +1,3 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
-"C:/Users/Mandals/Desktop/ProjetTrainingTPI/ProjetTrainingTPI/Content/test.spritefont","C:/Users/Mandals/Desktop/ProjetTrainingTPI/ProjetTrainingTPI/Content/bin/Windows/test.xnb","FontDescriptionProcessor","SpriteFontContent",2062,70673,0,2968053
+"C:/Users/Mandals/Desktop/ProjetTrainingTPI/ProjetTrainingTPI/Content/backgrounds/splashScreen.png","C:/Users/Mandals/Desktop/ProjetTrainingTPI/ProjetTrainingTPI/Content/bin/Windows/backgrounds/splashScreen.xnb","TextureProcessor","Texture2DContent",13604,3934309,0,3905432
+"C:/Users/Mandals/Desktop/ProjetTrainingTPI/ProjetTrainingTPI/Content/backgrounds/TitleScreen.png","C:/Users/Mandals/Desktop/ProjetTrainingTPI/ProjetTrainingTPI/Content/bin/Windows/backgrounds/TitleScreen.xnb","TextureProcessor","Texture2DContent",18630,3934309,0,0937535

@@ -5,6 +5,8 @@
   <Config />
   <SourceFiles>
     <File>C:/Users/Mandals/Desktop/ProjetTrainingTPI/ProjetTrainingTPI/Content/backgrounds/BG-01.png</File>
+    <File>C:/Users/Mandals/Desktop/ProjetTrainingTPI/ProjetTrainingTPI/Content/backgrounds/splashScreen.png</File>
+    <File>C:/Users/Mandals/Desktop/ProjetTrainingTPI/ProjetTrainingTPI/Content/backgrounds/TitleScreen.png</File>
     <File>C:/Users/Mandals/Desktop/ProjetTrainingTPI/ProjetTrainingTPI/Content/sprites/feu.png</File>
     <File>C:/Users/Mandals/Desktop/ProjetTrainingTPI/ProjetTrainingTPI/Content/sprites/feuInverse.png</File>
     <File>C:/Users/Mandals/Desktop/ProjetTrainingTPI/ProjetTrainingTPI/Content/sprites/fireResistant.png</File>
@@ -22,6 +24,8 @@
   </SourceFiles>
   <DestFiles>
     <File>backgrounds/volcan.png</File>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

@@ -15,8 +15,8 @@ namespace ProjetTrainingTPI.Classes
     {
         #region Variables
 
-        GameScreen currentScreen;
-        GameScreen newScreen;
+        Screen currentScreen;
+        Screen newScreen;
 
         ContentManager content;
 
@@ -28,7 +28,7 @@ namespace ProjetTrainingTPI.Classes
         /// <summary>
         /// Screen stack
         /// </summary>
-        Stack<GameScreen> screenStack = new Stack<GameScreen>();
+        Stack<Screen> screenStack = new Stack<Screen>();
 
         /// <summary>
         /// Screen width and height
@@ -57,30 +57,34 @@ namespace ProjetTrainingTPI.Classes
         #endregion
 
         #region Main Methods
-        public void AddScreen(GameScreen screen)
+        public void AddScreen(Screen screen, mainGame game)
         {
             newScreen = screen;
             screenStack.Push(screen);
             currentScreen.UnloadContent();
             currentScreen = newScreen;
-            currentScreen.LoadContent(content); 
+            currentScreen.Initialize(game);
+            currentScreen.LoadContent(content, game);
+           
         }
-        public void Initialize()
+        public void Initialize(mainGame game)
         {
-            currentScreen = new SplashScreen();
+            
+                currentScreen = new SplashScreen();
+                      
         }
-        public void LoadContent(ContentManager Content)
+        public void LoadContent(ContentManager Content, mainGame game)
         {
             content = new ContentManager(Content.ServiceProvider, "Content");
-            currentScreen.LoadContent(Content);
+            currentScreen.LoadContent(Content, game);
         }
-        public void Update(GameTime gametime)
+        public void Update(GameTime gametime, mainGame game)
         {
-            currentScreen.Update(gametime);
+            currentScreen.Update(gametime, game);
         }
-        public void Draw(SpriteBatch spriteBatch)
+        public void Draw(SpriteBatch spriteBatch, Rectangle dimensions, mainGame game)
         {
-            currentScreen.Draw(spriteBatch);
+            currentScreen.Draw(spriteBatch, dimensions, game);
         }
         #endregion
 
