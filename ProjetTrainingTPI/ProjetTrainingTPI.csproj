@@ -50,7 +50,6 @@
     <Compile Include="Classes\Player2.cs" />
     <Compile Include="Classes\AnimatedElementGeneric.cs" />
     <Compile Include="Classes\ScreenManager.cs" />
-    <Compile Include="Classes\SplashScreen.cs" />
     <Compile Include="Classes\StaticElementGeneric.cs" />
     <Compile Include="Classes\TitleScreen.cs" />
     <Compile Include="mainGame.cs" />

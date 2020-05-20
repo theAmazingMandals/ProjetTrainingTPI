@@ -30,7 +30,7 @@ namespace ProjetTrainingTPI.Classes
         public bool Fall { get => fall; set => fall = value; }
         public bool JumpingMode { get => jumpingMode; set => jumpingMode = value; }
         
-
+        
         public void Update(GameTime gameTime)
         {
 

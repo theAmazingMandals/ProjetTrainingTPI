@@ -16,7 +16,6 @@ namespace ProjetTrainingTPI.Classes
         #region Variables
 
         Screen currentScreen;
-        Screen newScreen;
 
         ContentManager content;
 
@@ -59,10 +58,10 @@ namespace ProjetTrainingTPI.Classes
         #region Main Methods
         public void AddScreen(Screen screen, mainGame game)
         {
-            newScreen = screen;
+            
             screenStack.Push(screen);
             currentScreen.UnloadContent();
-            currentScreen = newScreen;
+            currentScreen = screen;
             currentScreen.Initialize(game);
             currentScreen.LoadContent(content, game);
            
@@ -70,7 +69,7 @@ namespace ProjetTrainingTPI.Classes
         public void Initialize(mainGame game)
         {
             
-                currentScreen = new SplashScreen();
+           currentScreen = new TitleScreen();
                       
         }
         public void LoadContent(ContentManager Content, mainGame game)

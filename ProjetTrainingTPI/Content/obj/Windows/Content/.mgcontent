@@ -4,27 +4,25 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/Mandals/Desktop/ProjetTrainingTPI/ProjetTrainingTPI/Content/backgrounds/BG-01.png</File>
-    <File>C:/Users/Mandals/Desktop/ProjetTrainingTPI/ProjetTrainingTPI/Content/backgrounds/splashScreen.png</File>
-    <File>C:/Users/Mandals/Desktop/ProjetTrainingTPI/ProjetTrainingTPI/Content/backgrounds/TitleScreen.png</File>
-    <File>C:/Users/Mandals/Desktop/ProjetTrainingTPI/ProjetTrainingTPI/Content/sprites/feu.png</File>
-    <File>C:/Users/Mandals/Desktop/ProjetTrainingTPI/ProjetTrainingTPI/Content/sprites/feuInverse.png</File>
-    <File>C:/Users/Mandals/Desktop/ProjetTrainingTPI/ProjetTrainingTPI/Content/sprites/fireResistant.png</File>
-    <File>C:/Users/Mandals/Desktop/ProjetTrainingTPI/ProjetTrainingTPI/Content/sprites/glace.png</File>
-    <File>C:/Users/Mandals/Desktop/ProjetTrainingTPI/ProjetTrainingTPI/Content/sprites/glaceInverse.png</File>
-    <File>C:/Users/Mandals/Desktop/ProjetTrainingTPI/ProjetTrainingTPI/Content/sprites/glaceResistant.png</File>
-    <File>C:/Users/Mandals/Desktop/ProjetTrainingTPI/ProjetTrainingTPI/Content/sprites/insecteBleu.png</File>
-    <File>C:/Users/Mandals/Desktop/ProjetTrainingTPI/ProjetTrainingTPI/Content/sprites/insecteBleuInverse.png</File>
-    <File>C:/Users/Mandals/Desktop/ProjetTrainingTPI/ProjetTrainingTPI/Content/sprites/insecteRose.png</File>
-    <File>C:/Users/Mandals/Desktop/ProjetTrainingTPI/ProjetTrainingTPI/Content/sprites/insecteRoseInverse.png</File>
-    <File>C:/Users/Mandals/Desktop/ProjetTrainingTPI/ProjetTrainingTPI/Content/sprites/insecteVert.png</File>
-    <File>C:/Users/Mandals/Desktop/ProjetTrainingTPI/ProjetTrainingTPI/Content/sprites/insecteVertInverse.png</File>
-    <File>C:/Users/Mandals/Desktop/ProjetTrainingTPI/ProjetTrainingTPI/Content/test.spritefont</File>
-    <File>C:/Users/Mandals/Desktop/ProjetTrainingTPI/ProjetTrainingTPI/Content/textures/Platform-11.png</File>
+    <File>C:/Users/Mandals/Desktop/TPI/ExercicesCode/ProjetTrainingTPI/ProjetTrainingTPI/Content/backgrounds/BG-01.png</File>
+    <File>C:/Users/Mandals/Desktop/TPI/ExercicesCode/ProjetTrainingTPI/ProjetTrainingTPI/Content/backgrounds/TitleScreen.png</File>
+    <File>C:/Users/Mandals/Desktop/TPI/ExercicesCode/ProjetTrainingTPI/ProjetTrainingTPI/Content/sprites/feu.png</File>
+    <File>C:/Users/Mandals/Desktop/TPI/ExercicesCode/ProjetTrainingTPI/ProjetTrainingTPI/Content/sprites/feuInverse.png</File>
+    <File>C:/Users/Mandals/Desktop/TPI/ExercicesCode/ProjetTrainingTPI/ProjetTrainingTPI/Content/sprites/fireResistant.png</File>
+    <File>C:/Users/Mandals/Desktop/TPI/ExercicesCode/ProjetTrainingTPI/ProjetTrainingTPI/Content/sprites/glace.png</File>
+    <File>C:/Users/Mandals/Desktop/TPI/ExercicesCode/ProjetTrainingTPI/ProjetTrainingTPI/Content/sprites/glaceInverse.png</File>
+    <File>C:/Users/Mandals/Desktop/TPI/ExercicesCode/ProjetTrainingTPI/ProjetTrainingTPI/Content/sprites/glaceResistant.png</File>
+    <File>C:/Users/Mandals/Desktop/TPI/ExercicesCode/ProjetTrainingTPI/ProjetTrainingTPI/Content/sprites/insecteBleu.png</File>
+    <File>C:/Users/Mandals/Desktop/TPI/ExercicesCode/ProjetTrainingTPI/ProjetTrainingTPI/Content/sprites/insecteBleuInverse.png</File>
+    <File>C:/Users/Mandals/Desktop/TPI/ExercicesCode/ProjetTrainingTPI/ProjetTrainingTPI/Content/sprites/insecteRose.png</File>
+    <File>C:/Users/Mandals/Desktop/TPI/ExercicesCode/ProjetTrainingTPI/ProjetTrainingTPI/Content/sprites/insecteRoseInverse.png</File>
+    <File>C:/Users/Mandals/Desktop/TPI/ExercicesCode/ProjetTrainingTPI/ProjetTrainingTPI/Content/sprites/insecteVert.png</File>
+    <File>C:/Users/Mandals/Desktop/TPI/ExercicesCode/ProjetTrainingTPI/ProjetTrainingTPI/Content/sprites/insecteVertInverse.png</File>
+    <File>C:/Users/Mandals/Desktop/TPI/ExercicesCode/ProjetTrainingTPI/ProjetTrainingTPI/Content/test.spritefont</File>
+    <File>C:/Users/Mandals/Desktop/TPI/ExercicesCode/ProjetTrainingTPI/ProjetTrainingTPI/Content/textures/Platform-11.png</File>
   </SourceFiles>
   <DestFiles>
     <File>backgrounds/volcan.png</File>
-    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
